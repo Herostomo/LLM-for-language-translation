@@ -15,8 +15,8 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://band-b910d-default-rtdb.asia-southeast1.firebasedatabase.app'
 })
 
-API_TOKEN = "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"
-API_URL = "https://api-inference.huggingface.co/models/facebook/nllb-200-distilled-600M"
+API_TOKEN = "Your_API_TOKEN"
+API_URL = "Your_API"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 # Initialize the Google Translator
